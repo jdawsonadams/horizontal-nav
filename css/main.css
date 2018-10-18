@@ -10,7 +10,9 @@ h1 {
   color: #fff;
   text-align: center;
   background-color: #79756f;
-  padding: .6 em;
+  padding: .6em;
+  margin: .3em;
+  border: 3px solid #595652;
 }
 
 h1 div {
@@ -19,5 +21,6 @@ h1 div {
   font-family: sans-serif;
   font-weight: normal;
   font-size: 14pt;
-  display: inline
+  display: inline;
+  margin: .3em;
 }
