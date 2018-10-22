@@ -5,22 +5,47 @@ html {
   line-height: 1.5;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #79756f;
+  border: 3px solid #595652;
+}
+
 h1 {
   font-weight: bold;
   color: #fff;
   text-align: center;
-  background-color: #79756f;
   padding: .6em;
   margin: .3em;
-  border: 3px solid #595652;
 }
 
-h1 div {
-  background-color: #713837
-  color: #fff;
-  font-family: sans-serif;
+.buttons {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.buttons li {
+  display: inline;
+}
+
+.buttons a {
   font-weight: normal;
   font-size: 14pt;
-  display: inline;
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em .75em;
+  background-color: #713837;
+  border-radius: .3em;
   margin: .3em;
+}
+
+.buttons a:hover {
+  color: #fff;
+  background-color: #f33;
 }
